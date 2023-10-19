@@ -29,7 +29,8 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
+  base: '/giga'
   //, scrollBehavior() {
   //   return { top: 0 }
   // }
